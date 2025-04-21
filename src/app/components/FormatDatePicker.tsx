@@ -17,6 +17,11 @@ const localeMap = {
 }
 
 const dateFormatMap: Record<string, string> = {
+    th: 'BBBB-MM-DD',
+    en: 'YYYY-MM-DD',
+}
+
+const datePlaceholder: Record<string, string> = {
     th: 'เดือน/วัน/ปี',
     en: 'mm//dd//yy',
 }
@@ -44,7 +49,7 @@ const FormatDatePicker = (props: DatePickerProps) => {
             <div>
                 <DatePicker
                     format={dateFormatMap[i18n.language]}
-                    placeholder={dateFormatMap[i18n.language]}
+                    placeholder={datePlaceholder[i18n.language]}
                     style={{ width: 250 }}
                     onChange={handleChange}
                     {...props}

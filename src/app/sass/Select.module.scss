@@ -1,0 +1,44 @@
+.languageSelect {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    display: inline-block;
+    width: 100px;
+    select {
+        background-color: white;
+        color: #333;
+
+        border: none;
+        padding: 0.4rem 1rem;
+        font-weight: bold;
+        border-radius: 6px;
+        appearance: none;
+        position: relative;
+        padding-right: 2rem;
+    }
+
+    position: relative;
+    &::after {
+        content: '▼';
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 0.6rem;
+        color: #888;
+        pointer-events: none;
+    }
+}
+
+.homeButton {
+    border-radius: 8px;
+    display: inline-block;
+    background-color: white;
+    color: #333;
+    border: none;
+    padding: 0.4rem 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    appearance: none;
+    margin-top: 5px;
+    margin-left: 30px;
+}

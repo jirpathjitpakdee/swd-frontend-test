@@ -1,0 +1,58 @@
+{
+    "cardtitle1": "Test 1",
+    "cardsubtitle1": "Layout & Style",
+    "cardtitle2": "Test 2",
+    "cardsubtitle2": "Connect API",
+    "cardtitle3": "Test 3",
+    "cardsubtitle3": "Form & Table",
+    "layoutpage": "Layout & Style",
+    "moveshape": "Move Shape",
+    "moveposition": "Move Position",
+    "layoutformpage": {
+        "header": "Form & Table",
+        "home": "Home",
+        "selectall": "Select All",
+        "deletedata": "DELETE"
+    },
+    "form": {
+        "title": "title",
+        "optiontitle": {
+            "mr": "Mr.",
+            "mrs": "Mrs.",
+            "ms": "Ms."
+        },
+        "firstname": "Firstname",
+        "lastname": "Lastname",
+        "birthday": "Birthday",
+        "citizenID": "CitizenID",
+        "labelgender": "Gender",
+        "labelnation": "Nationality",
+        "placeholdernation": "Select",
+        "gender": {
+            "male": "Male",
+            "female": "Female",
+            "unsex": "Unsex"
+        },
+        "nationality": {
+            "thai": "Thai",
+            "french": "French",
+            "american": "American"
+        },
+        "mobilephone": "Mobilephone",
+        "passport": "Passport No",
+        "salary": "Expected Salary",
+        "reset": "RESET",
+        "submit": "SUBMIT"
+    },
+    "table": {
+        "title": "Name",
+        "gender": "Gender",
+        "mobilephone": "Mobile Phone",
+        "nationality": "Nationality",
+        "manage": "MANAGE",
+        "edit": "EDIT",
+        "delete": "DELETE",
+        "prev": "PREV",
+        "next": "NEXT"
+    }
+}

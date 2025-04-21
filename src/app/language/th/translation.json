@@ -1,0 +1,58 @@
+{
+    "cardtitle1": "แบบทดสอบที่ 1",
+    "cardsubtitle1": "การจัดการหน้าเว็บ",
+    "cardtitle2": "แบบทดสอบที่ 2",
+    "cardsubtitle2": "การเชื่อมต่อ API",
+    "cardtitle3": "แบบทดสอบที่ 3",
+    "cardsubtitle3": "การจัดการหน้าฟอร์ม",
+    "layoutpage": "การจัดการหน้าเว็บ",
+    "moveshape": "เลื่อนรูปแบบ",
+    "moveposition": "เปลี่ยนตำแหน่ง",
+    "layoutformpage": {
+        "header": "การจัดการหน้าฟอร์ม",
+        "home": "หน้าหลัก",
+        "selectall": "เลือกทั้งหมด",
+        "deletedata": "ลบข้อมูล"
+    },
+    "form": {
+        "title": "คำนำหน้า",
+        "optiontitle": {
+            "mr": "นาย",
+            "mrs": "นางสาว",
+            "ms": "นาง"
+        },
+        "firstname": "ชื่อจริง",
+        "lastname": "นามสกุล",
+        "birthday": "วันเกิด",
+        "citizenID": "เลขบัตรประชาชน",
+        "labelgender": "เพศ",
+        "labelnation": "สัญชาติ",
+        "gender": {
+            "male": "ชาย",
+            "female": "หญิง",
+            "unsex": "ไม่ระบุ"
+        },
+        "nationality": {
+            "thai": "ไทย",
+            "french": "ฝรั่งเศส",
+            "american": "อเมริกา"
+        },
+        "placeholdernation": "กรุณาเลือก",
+        "mobilephone": "หมายเลขโทรศัพท์มือถือ",
+        "passport": "หนังสือเดินทาง",
+        "salary": "เงินเดือนที่คาดหวัง",
+        "reset": "ล้างข้อมูล",
+        "submit": "ส่งข้อมูล"
+    },
+    "table": {
+        "title": "ชื่อ",
+        "gender": "เพศ",
+        "mobilephone": "หมายเลขโทรศัพท์มือถือ",
+        "nationality": "สัญชาติ",
+        "manage": "จัดการ",
+        "edit": "แก้ใขข้อมูล",
+        "delete": "ลบข้อมูล",
+        "prev": "ก่อนหน้า",
+        "next": "ถัดไป"
+    }
+}

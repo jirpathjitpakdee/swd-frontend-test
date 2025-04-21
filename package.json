@@ -9,12 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^2.7.0",
     "antd": "^5.20.6",
+    "dayjs": "^1.11.13",
     "i18next": "^23.15.1",
     "next": "14.2.12",
     "react": "^18",
     "react-dom": "^18",
-    "redux-toolkit": "^1.1.2"
+    "react-redux": "^9.2.0",
+    "redux-toolkit": "^1.1.2",
+    "sass": "^1.86.3"
   },
   "devDependencies": {
     "@types/node": "^20",

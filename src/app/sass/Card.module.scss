@@ -1,0 +1,23 @@
+.card {
+    height: 140px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+
+    &__title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        color: #000;
+        margin: 0;
+    }
+
+    &__subtitle {
+        font-size: 0.95rem;
+        color: #555;
+    }
+}

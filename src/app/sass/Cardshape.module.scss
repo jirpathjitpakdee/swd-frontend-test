@@ -1,0 +1,194 @@
+$height-card-shape: 150px;
+$card-color: #fff;
+$color-green: #6eda78;
+$color-yellow: #ffa200;
+$shape-color-gray: gray;
+.card {
+    height: 20vh;
+    padding-left: 10px;
+
+    &__card_shape1 {
+        height: $height-card-shape;
+        background-color: $card-color;
+        border-radius: 2px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        display: flex;
+        transition: transform 0.3s ease;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        div {
+            width: 0px;
+            height: 0px;
+            margin-top: 24px;
+            border-top: 65px solid transparent;
+            border-bottom: 55px solid transparent;
+            border-right: 100px solid $shape-color-gray;
+        }
+        button {
+            background-color: #6be3a4;
+            color: $card-color;
+            border: none;
+            padding: 2.5px 16px;
+            border-radius: 4px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        &:hover {
+            background-color: $color-yellow;
+        }
+    }
+
+    &__card_shape2 {
+        height: $height-card-shape;
+        background-color: $card-color;
+        border-radius: 2px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+
+        display: flex;
+        transition: transform 0.3s ease;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+        div:first-child {
+            width: 0px;
+            height: 0px;
+            border-left: 65px solid transparent;
+            border-right: 65px solid transparent;
+            border-bottom: 100px solid $shape-color-gray;
+        }
+        div:last-child {
+            width: 0px;
+            height: 0px;
+            border-left: 65px solid transparent;
+            border-right: 65px solid transparent;
+            border-top: 100px solid $shape-color-gray;
+        }
+        button {
+            background-color: $color-green;
+            color: $card-color;
+            border: none;
+            padding: 2.5px;
+            margin-top: 150px;
+            border-radius: 4px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        &:hover {
+            background-color: $color-yellow;
+        }
+    }
+
+    &__card_shape3 {
+        height: $height-card-shape;
+        background-color: $card-color;
+        border-radius: 2px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        display: flex;
+        transition: transform 0.3s ease;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        cursor: pointer;
+        div {
+            width: 0px;
+            height: 0px;
+            margin-top: 24px;
+            border-top: 65px solid transparent;
+            border-bottom: 55px solid transparent;
+            border-left: 100px solid $shape-color-gray;
+        }
+        button {
+            background-color: $color-green;
+            color: $card-color;
+            border: none;
+            padding: 2.5px 16px;
+            border-radius: 4px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+        &:hover {
+            background-color: $color-yellow;
+        }
+    }
+
+    &__card_content1 {
+        padding-left: 20vh;
+    }
+
+    &__card_shape5 {
+        height: 150px;
+        background-color: $card-color;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &:hover {
+            background-color: $color-yellow;
+
+            .shape_square,
+            .shape_circle,
+            .shape_oval,
+            .shape_rectangle,
+            .shape_parallelogram {
+                background-color: white;
+            }
+
+            .shape_trapezoid {
+                border-bottom: 100px solid white;
+            }
+        }
+    }
+}
+
+.shape_square {
+    width: 100px;
+    height: 100px;
+    background-color: $shape-color-gray;
+}
+
+.shape_circle {
+    width: 100px;
+    height: 100px;
+    background-color: $shape-color-gray;
+    border-radius: 50%;
+}
+
+.shape_oval {
+    width: 250px;
+    height: 100px;
+    background-color: $shape-color-gray;
+    border-radius: 50%;
+}
+
+.shape_trapezoid {
+    width: 250px;
+    height: 0;
+    border-bottom: 100px solid $shape-color-gray;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
+}
+
+.shape_rectangle {
+    width: 230px;
+    height: 130px;
+    background-color: $shape-color-gray;
+}
+
+.shape_parallelogram {
+    --p: 50px;
+    width: 250px;
+    height: 100px;
+    aspect-ratio: 3/2;
+    clip-path: polygon(0 0, calc(100% - var(--p)) 0, 100% 100%, var(--p) 100%);
+    background: $shape-color-gray;
+}

@@ -1,0 +1,13 @@
+$color-green: #6eda78;
+$color-yellow: #ffa200;
+
+.background {
+    background: linear-gradient(125deg, $color-green, $color-yellow);
+    min-height: 100vh;
+
+    &__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

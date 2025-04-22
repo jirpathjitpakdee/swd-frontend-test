@@ -4,7 +4,7 @@ import React from 'react'
 const Home = () => {
     return (
         <div>
-            <Link href="/test1">
+            <Link href="/layoutpage">
                 <h1>แบบทดสอบที่ 1</h1>
             </Link>
             <Link href="/form">

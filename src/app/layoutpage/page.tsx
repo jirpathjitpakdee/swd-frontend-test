@@ -9,7 +9,7 @@ import cardStyles from '../sass/Card.module.scss'
 import Link from 'next/link'
 const { Content } = Layout
 
-const Test1 = () => {
+const LayoutPage = () => {
     const [currentLang, setCurrentLang] = useState(i18n.language)
 
     const [t, setT] = useState<(key: string) => string>(() => i18n.t)
@@ -42,7 +42,7 @@ const Test1 = () => {
                     }}
                 >
                     <Col span={6}>
-                        <Link href={'/test1/layoutpage'}>
+                        <Link href={'/layoutpage/shapepage'}>
                             <div className={cardStyles.card}>
                                 <h3 className={cardStyles.card__title}>
                                     {t('cardtitle1')}
@@ -81,4 +81,4 @@ const Test1 = () => {
     )
 }
 
-export default Test1
+export default LayoutPage

@@ -18,13 +18,13 @@ const shapeClassNames: string[] = [
     cardShape.shape_parallelogram,
 ]
 
-const LayoutPage = () => {
+const ShapePage = () => {
     const rotation: number = 0
 
     const [shapeOrder, setShapeOrder] = useState([...shapeClassNames])
     const [reverseGridLayout, setReverseGridLayout] = useState<boolean>(true)
     const [currentLang, setCurrentLang] = useState(i18n.language)
-    console.log('currentLang', currentLang)
+
     const [t, setT] = useState<(key: string) => string>(() => i18n.t)
 
     useEffect(() => {
@@ -241,4 +241,4 @@ const LayoutPage = () => {
     )
 }
 
-export default LayoutPage
+export default ShapePage
